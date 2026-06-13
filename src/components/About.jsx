@@ -34,7 +34,7 @@ const About = () => {
           <p><strong>Ph.D. (Pursuing)</strong><br /> IoT + ML | Amrita Vishwa Vidyapeetham</p>
           <p><strong>M.Tech (CS)</strong><br /> 2013 | KIET, JNTUK</p>
           <p><strong>B.Tech (CSIT)</strong><br /> 2005 | KIET, JNTUH</p>
-          <p><strong>Intermediate</strong><br /> 2001 | BIE India</p>
+          <p><strong>Intermediate</strong><br /> 2001 |  MSR Jr College ,Ongole</p>
         </div>
       </div>
     </motion.section>

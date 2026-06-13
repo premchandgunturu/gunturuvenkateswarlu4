@@ -21,7 +21,7 @@ function Hero() {
             Associate Professor • Cybersecurity Instructor
           </span>
 
-          <h1>Prof. Gunturu Venkateswarlu</h1>
+          <h1>Gunturu Venkateswarlu</h1>
 
           <h2>Ph.D Scholar in IoT & Machine Learning</h2>
 
@@ -43,7 +43,7 @@ function Hero() {
               <span>Certifications</span>
             </div>
             <div className="academic-item">
-              <span className="highlight-number">1000+</span>
+              <span className="highlight-number">100000+</span>
               <span>Students Mentored</span>
             </div>
           </div>
@@ -71,13 +71,13 @@ function Hero() {
         >
           <div className="profile-card">
             <div className="image-ring">
-              <img src={profileImage} alt="Dr. Gunturu Venkateswarlu" />
+              <img src={profileImage} alt="Mr. Gunturu Venkateswarlu (Ph.D)" />
             </div>
             <div className="profile-info">
               <span className="designation">
                 Associate Professor @ ACE Engineering College
               </span>
-              <h3 style={{ color: "#D4AF37" }}>Dr. Gunturu Venkateswarlu</h3>
+              <h3 style={{ color: "#D4AF37" }}>Mr. Gunturu Venkateswarlu (Ph.D)</h3>
               <p>
                 Cybersecurity Instructor
                 <br />
