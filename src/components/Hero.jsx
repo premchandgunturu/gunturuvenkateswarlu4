@@ -21,7 +21,7 @@ function Hero() {
             Associate Professor • Cybersecurity Instructor
           </span>
 
-          <h1>Gunturu Venkateswarlu</h1>
+          <h1>Mr. Gunturu Venkateswarlu (PhD)</h1>
 
           <h2>Ph.D Scholar in IoT & Machine Learning</h2>
 
