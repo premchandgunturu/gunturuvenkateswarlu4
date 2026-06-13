@@ -77,7 +77,7 @@ function Hero() {
               <span className="designation">
                 Associate Professor @ ACE Engineering College
               </span>
-              <h3 style={{ color: "#D4AF37" }}>Mr. Gunturu Venkateswarlu (Ph.D)</h3>
+              <h3 style={{ color: "#D4AF37" }}>Mr. Gunturu Venkateswarlu (PhD)</h3>
               <p>
                 Cybersecurity Instructor
                 <br />
