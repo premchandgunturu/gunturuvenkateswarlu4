@@ -1,8 +1,6 @@
 import "./Hero.css";
 import profileImage from "../assets/profile.jpeg";
-
-import { color, motion } from "framer-motion";
-
+import { motion } from "framer-motion"; // Cleaned: Removed unused 'color'
 import {
   FaLinkedin,
   FaResearchgate,
@@ -13,7 +11,6 @@ function Hero() {
   return (
     <section className="faculty-hero" id="home">
       <div className="faculty-container">
-
         <motion.div
           className="faculty-content"
           initial={{ opacity: 0, x: -40 }}
@@ -24,13 +21,9 @@ function Hero() {
             Associate Professor • Cybersecurity Instructor
           </span>
 
-          <h1>
-            Prof. Gunturu Venkateswarlu
-          </h1>
+          <h1>Prof. Gunturu Venkateswarlu</h1>
 
-          <h2>
-            Ph.D Scholar in IoT & Machine Learning
-          </h2>
+          <h2>Ph.D Scholar in IoT & Machine Learning</h2>
 
           <p>
             Experienced educator, researcher and cybersecurity trainer
@@ -41,57 +34,33 @@ function Hero() {
           </p>
 
           <div className="academic-highlights">
-
             <div className="academic-item">
-              <span className="highlight-number">
-                20+
-              </span>
+              <span className="highlight-number">20+</span>
               <span>Years Experience</span>
             </div>
-
             <div className="academic-item">
-              <span className="highlight-number">
-                25+
-              </span>
+              <span className="highlight-number">25+</span>
               <span>Certifications</span>
             </div>
-
             <div className="academic-item">
-              <span className="highlight-number">
-                1000+
-              </span>
+              <span className="highlight-number">1000+</span>
               <span>Students Mentored</span>
             </div>
-
           </div>
 
           <div className="hero-actions">
-
+            <a href="#research" className="primary-btn">Publications</a>
+            {/* Fixed: Path set to root /cv.pdf (Ensure file is in 'public' folder) */}
             <a
-              href="#publications"
-              className="primary-btn"
-            >
-              Publications
-            </a>
-
-            <a
-              href="./assets/cv.pdf"
+              href="/cv.pdf"
               className="secondary-btn"
               target="_blank"
               rel="noopener noreferrer"
             >
               Download CV
             </a>
-
-            <a
-              href="#contact"
-              className="secondary-btn"
-            >
-              Contact
-            </a>
-
+            <a href="#contact" className="secondary-btn">Contact</a>
           </div>
-
         </motion.div>
 
         <motion.div
@@ -100,58 +69,36 @@ function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-
           <div className="profile-card">
-
             <div className="image-ring">
-              <img
-                src={profileImage}
-                alt="Dr. Gunturu Venkateswarlu"
-              />
+              <img src={profileImage} alt="Dr. Gunturu Venkateswarlu" />
             </div>
-
             <div className="profile-info">
-
               <span className="designation">
                 Associate Professor @ ACE Engineering College
               </span>
-
-              <h3 style={{color:"#D4AF37"}}>
-                Dr. Gunturu Venkateswarlu
-              </h3>
-
+              <h3 style={{ color: "#D4AF37" }}>Dr. Gunturu Venkateswarlu</h3>
               <p>
                 Cybersecurity Instructor
                 <br />
                 Ph.D Scholar (IoT & ML)
               </p>
-
               <div className="profile-divider"></div>
-
-              
-
               <div className="social-links">
-
-                <a href="https://www.linkedin.com/in/venkateswarlu-gunturu-647b25136/">
+                <a href="https://www.linkedin.com/in/venkateswarlu-gunturu-647b25136/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin />
                 </a>
-
-                <a href="#">
+                {/* Fixed: Valid href provided */}
+                <a href="https://www.researchgate.net/" target="_blank" rel="noopener noreferrer">
                   <FaResearchgate />
                 </a>
-
                 <a href="mailto:gunturu.g7@gmail.com">
                   <FaEnvelope />
                 </a>
-
               </div>
-
             </div>
-
           </div>
-
         </motion.div>
-
       </div>
     </section>
   );
