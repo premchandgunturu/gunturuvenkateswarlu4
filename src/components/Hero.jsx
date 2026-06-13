@@ -33,7 +33,7 @@ function Hero() {
           </h2>
 
           <p>
-            Experienced educator, researcher, and cybersecurity trainer
+            Experienced educator, researcher and cybersecurity trainer
             with more than 20 years of teaching, mentoring and industry
             training experience. Specialized in Cybersecurity,
             Ethical Hacking, Cloud Security, Blockchain,
