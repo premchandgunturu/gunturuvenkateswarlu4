@@ -1,0 +1,54 @@
+/* Layout Containers */
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+
+/* High Contrast Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 24px;
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
+  transition: all 0.4s ease;
+}
+
+/* Gold Headers */
+.glass h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #D4AF37;
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Text Styling */
+.glass p {
+  color: #e2e8f0;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Hover Effect */
+.glass:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+  transform: translateY(-8px);
+}
+
+/* Responsive */
+@media(max-width: 1024px) {
+  .about-container { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media(max-width: 768px) {
+  .about-container { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,32 @@
+.footer-section {
+  padding: 3rem 2rem;
+  margin-top: 2rem;
+}
+
+.footer-container {
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content h3 {
+  color: #D4AF37;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.footer-content p {
+  color: #94a3b8;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #475569;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 20px;
+  letter-spacing: 0.5px;
+}

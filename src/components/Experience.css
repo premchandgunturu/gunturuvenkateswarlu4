@@ -1,0 +1,83 @@
+/* Experience.css */
+
+.timeline-section {
+  padding: 4rem 2rem;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.timeline-title {
+  text-align: center;
+  color: #D4AF37; /* Metallic Gold */
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  /* The vertical gold line connector */
+  padding-left: 30px;
+  border-left: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.timeline-card {
+  position: relative;
+  padding: 25px;
+  /* Hover effect for interactivity */
+  transition: all 0.4s ease;
+}
+
+/* The glowing dot on the timeline */
+.timeline-card::before {
+  content: '';
+  position: absolute;
+  left: -41px;
+  top: 35px;
+  width: 16px;
+  height: 16px;
+  background: #D4AF37;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #D4AF37;
+}
+
+.year-badge {
+  color: #60a5fa; /* Soft Blue for dates */
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.timeline-card h3 {
+  font-size: 1.3rem !important; /* Slightly smaller than main headers */
+  margin: 5px 0 !important;
+  color: #f8fafc;
+}
+
+.company-name {
+  color: #a78bfa !important; /* Soft Purple for company names */
+  font-weight: 600;
+  margin: 0 !important;
+  font-size: 1rem;
+}
+
+/* Hover glow effect for the cards */
+.timeline-card:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(212, 175, 55, 0.5) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transform: translateX(10px);
+}
+
+/* Responsive adjustment */
+@media(max-width: 768px) {
+  .timeline-section { padding: 2rem 1rem; }
+  .timeline-title { font-size: 2rem; }
+  .timeline-card { padding: 20px; }
+}
