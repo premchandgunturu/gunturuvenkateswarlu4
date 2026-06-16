@@ -111,7 +111,13 @@ export const profile = {
     type: "Book Chapter (CCIS Springer)",
     title: "Quantum Recurrent Neural Network-Based Classification of Ammonia Contamination in Aquatic Environments",
     link: "https://doi.org/10.1007/978-3-032-09572-5_5"
-  }
+  },
+  {
+    year: "2026",
+    type: "Journal Article (Springer Nature)",
+    title: "Quantum-inspired convolutional LSTM for real-time and explainable water quality monitoring in aquaculture",
+    link: "https://link.springer.com/article/10.1007/s42452-026-08946-x"
+}
 ],
  certifications: {
   featured: [
